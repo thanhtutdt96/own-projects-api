@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:4000/api
+
+# Working Times
+
+# @name getAllWorkingTimes
+
+GET {{baseUrl}}/working

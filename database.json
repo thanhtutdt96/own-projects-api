@@ -1,0 +1,110 @@
+{
+  "working": {
+    "Mon": {
+      "startTime": "0900",
+      "endTime": "1800"
+    },
+    "Tue": {
+      "startTime": "0900",
+      "endTime": "1800"
+    },
+    "Wed": {
+      "startTime": "0900",
+      "endTime": "1800"
+    },
+    "Thu": {
+      "startTime": "0900",
+      "endTime": "1800"
+    },
+    "Fri": {
+      "startTime": "0900",
+      "endTime": "1800"
+    },
+    "Sat": {
+      "startTime": "0900",
+      "endTime": "1800"
+    },
+    "Sun": {
+      "startTime": "0900",
+      "endTime": "1800"
+    }
+  },
+  "scheduled": {
+    "2022-05-26": [
+      {
+        "startTime": "1200",
+        "endTime": "1400",
+        "name": "Test Event 1"
+      },
+      {
+        "startTime": "1300",
+        "endTime": "1500",
+        "name": "Test Event 2"
+      }
+    ],
+    "2022-05-27": [
+      {
+        "startTime": "1400",
+        "endTime": "1530",
+        "name": "Test Event 1"
+      },
+      {
+        "startTime": "1500",
+        "endTime": "1600",
+        "name": "Test Event 2"
+      },
+      {
+        "startTime": "1200",
+        "endTime": "1300",
+        "name": "Test Event 0"
+      }
+    ],
+    "2022-05-28": [
+      {
+        "startTime": "1200",
+        "endTime": "1600",
+        "name": "Test Event 3"
+      }
+    ],
+    "2022-05-29": [
+      {
+        "startTime": "1200",
+        "endTime": "1600",
+        "name": "Test Event 3"
+      }
+    ],
+    "2022-05-30": [
+      {
+        "startTime": "1200",
+        "endTime": "1600",
+        "name": "Test Event 3"
+      }
+    ]
+  },
+  "available": {
+    "2022-05-29": [
+      {
+        "startTime": "1830",
+        "endTime": "2100"
+      }
+    ],
+    "2022-05-28": [
+      {
+        "startTime": "0600",
+        "endTime": "0830"
+      }
+    ],
+    "2022-05-26": [
+      {
+        "startTime": "0500",
+        "endTime": "0600"
+      }
+    ],
+    "2022-05-27": [
+      {
+        "startTime": "0500",
+        "endTime": "0600"
+      }
+    ]
+  }
+}

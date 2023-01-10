@@ -1,0 +1,17 @@
+{
+  "name": "scheduler-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tu Pham",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

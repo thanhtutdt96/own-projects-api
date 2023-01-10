@@ -1,0 +1,19 @@
+@baseUrl = http://localhost:4000/api
+
+# Available Times
+
+# @name getAllAvailableTimes
+
+GET {{baseUrl}}/available
+
+###
+
+# @name addAvailableTime
+
+POST {{baseUrl}}/available/2022-05-27
+Content-Type: application/json
+
+{
+  "startTime": "0600",
+  "endTime": "0630"
+}
