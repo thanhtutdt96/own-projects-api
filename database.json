@@ -106,5 +106,30 @@
         "endTime": "0600"
       }
     ]
-  }
+  },
+  "users": [
+    {
+      "email": "thanhtutdt96@gmail.com",
+      "password": "$2a$10$4b/4vJ6/x0jUBAxA22zRm.OhPvuV/aN5D5D1FT0s758N9FhuW16ya",
+      "id": 1
+    }
+  ],
+  "shared-movies": [
+    {
+      "title": "Highlights GEN vs HLE | Game 4 | Playoffs Round 2 | LCK Mùa Xuân 2023",
+      "description": "Highlights GEN vs HLE | Game 4 | Playoffs Round 2 | LCK Mùa Xuân 2023\n- - - - - - - - - - - - - - - ...",
+      "embedId": "q6HHfRvxNSc",
+      "email": "thanhtutdt96@gmail.com",
+      "createdAt": 1679898440072,
+      "id": 1
+    },
+    {
+      "title": "Lu Talkshow: C.h.ế.t hụt sống dai - T1 bất tử",
+      "description": "Lu Talkshow: C.h.ế.t hụt sống dai - T1 bất tử\n\nĐăng kí thành viên kênh Lu để nhận những quyền lợi đặ...",
+      "embedId": "70uHa8uGmew",
+      "email": "thanhtutdt96@gmail.com",
+      "createdAt": 1679898448218,
+      "id": 2
+    }
+  ]
 }
