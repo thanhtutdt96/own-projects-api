@@ -1,19 +1,16 @@
 const jwt = require('jsonwebtoken');
 const jsonServer = require('json-server')
 const auth = require('json-server-auth')
-const cors = require('cors');
 
 const JWT_SECRET_KEY = require('./node_modules/json-server-auth/dist/constants').JWT_SECRET_KEY;
 
 const server = jsonServer.create()
 const router = jsonServer.router('./database.json')
 
-const middlewares = jsonServer.defaults()
+const middlewares = jsonServer.defaults({ noCors: true })
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
-
-server.use(cors())
 
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
