@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "json-server": "^0.17.1",
+    "json-server-auth": "^2.1.0",
     "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {
-    "json-server-auth": "^2.1.0",
     "nodemon": "^2.0.20"
   }
 }

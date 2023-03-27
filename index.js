@@ -7,7 +7,7 @@ const JWT_SECRET_KEY = require('./node_modules/json-server-auth/dist/constants')
 const server = jsonServer.create()
 const router = jsonServer.router('./database.json')
 
-const middlewares = jsonServer.defaults({ noCors: true })
+const middlewares = jsonServer.defaults()
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
