@@ -1,0 +1,7 @@
+@baseUrl = http://localhost:4000/api
+
+# Apartments
+
+# @name getInventoryByAparmentId
+
+GET {{baseUrl}}/apartments/1/inventories
